@@ -1,0 +1,21 @@
+{
+  "short_name": "Stats",
+  "name": "Stats Customs | B2B Apparel",
+  "icons": [
+    {
+      "src": "https://i.imgur.com/OIYeMvS.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://i.imgur.com/OIYeMvS.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#000000",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "description": "Professional B2B Textile Commissioning Platform."
+}

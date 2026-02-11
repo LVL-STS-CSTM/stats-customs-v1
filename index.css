@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Futura', '"Futura Std"', 'Jost', sans-serif; 
+  background-color: #ffffff;
+  color: #111;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 300;
+  letter-spacing: 0.015em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Rheiborn Sans Clean", "Antonio", sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Custom font-face fallback for Rheiborn if hosted locally */
+@font-face {
+  font-family: 'Rheiborn Sans Clean';
+  src: local('Rheiborn Sans Clean'), local('RheibornSansClean');
+  font-weight: normal;
+  font-style: normal;
+}

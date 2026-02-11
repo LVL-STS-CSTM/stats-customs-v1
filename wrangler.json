@@ -1,0 +1,18 @@
+
+{
+  "name": "stats-customs-v1",
+  "pages_build_output_dir": "dist",
+  "compatibility_date": "2025-01-01",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "vars": {
+    "ALLOW_SEED": "true"
+  },
+  "kv_namespaces": [
+    {
+      "binding": "STATSCUSTOMSDATA",
+      "id": "e98e603eba714448b4a712c18c425b28"
+    }
+  ]
+}
